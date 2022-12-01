@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Dancing+Script:wght@500&family=Oswald&family=Ubuntu&display=swap');
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    /* border: 1px solid brown; */
+}
+.header {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width {
+    text-align: left;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#center{
+    padding-top: 15%;
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+h1 span {
+    color: yellowgreen;
+}
+p{
+    color: rgb(12, 6, 12);
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(240, 217, 7), rgb(51, 141, 141));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.half-width img {
+    width: 100%;
+}
+
+/* biography section starts */
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+
+/* Latest work section */
+.latest-work{
+    height: 200px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.work-portfolio{
+    display: flex;
+    justify-content: center;
+}
+.work-portfolio img{
+    width: 200px;
+    padding: 10px;
+}
+
+/* client say section */
+
+.client{
+    background-image: url(images//biography-bg.png);
+}
+.first-half {
+    /* border: 1px solid red; */
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 50px;
+}
+.first-half h3{
+    text-align: center;
+}
+.first-half h4{
+    text-align: center;
+    color: grey;
+}
+.first-half h5{
+    text-align: center;
+    color: gray;
+}
+.first-half p{
+    text-align: left;
+    word-spacing: 0.5;
+}
+.second-half {
+    margin-left: 30%;
+    margin-right: 30%;
+    /* border: red 1px solid; */
+    padding: 4px;
+    background-color: rgb(214, 36, 176);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.second-half h6{
+    font-size: 10px;
+    font-weight: 500;
+}
+.second-half p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+/* Footer */
+
+footer {
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+    color: grey;
+    font-size: small;
+}
